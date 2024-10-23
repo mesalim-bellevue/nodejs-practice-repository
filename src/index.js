@@ -14,8 +14,8 @@ async function main () {
   const result = factorial(5); // Call the factorial function with the value of 5
   console.log('factorial of 5 is', result); // Log the result to the console
 
-  const reversedStr = reverseString("evil");
-  console.log('the reversed string of "evil" is: ', result);
+  const reversedStr = reverseString("evil"); // Call the reverseString function with the value of evil
+  console.log('the reversed string of "evil" is: ', reversedStr); // Log the result to the console
 }
 
 main(); // Call the main function to calculate the factorial of 5
